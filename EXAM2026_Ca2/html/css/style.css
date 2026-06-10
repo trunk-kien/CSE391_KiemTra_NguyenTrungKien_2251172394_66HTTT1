@@ -1,0 +1,50 @@
+/* .css */
+
+body {
+    background-color: #175fcc; 
+}
+
+.app-header {
+    background: linear-gradient(135deg, #0d6efd 0%, #6610f2 100%);
+}
+
+.record-card {
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+}
+
+.record-card:hover {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.status-completed {
+    border-left: 4px solid #198754 !important; 
+}
+
+.status-in-progress {
+    border-left: 4px solid #fd7e14 !important; 
+}
+
+.status-not-started {
+    border-left: 4px solid #6c757d !important; 
+}
+
+.badge-completed {
+    background-color: #198754;
+    color: white;
+}
+
+.badge-in-progress {
+    background-color: #fd7e14;
+    color: white;
+}
+
+.badge-not-started {
+    background-color: #6c757d;
+    color: white;
+}
+
+.form-control::placeholder,
+.form-select {
+    color: #a0a5aa;
+}
